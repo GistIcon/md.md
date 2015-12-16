@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/organizations/GistIcon/usernamealreadyis.private</id>
+  <link type="text/html" rel="alternate" href="https://github.com/organizations/GistIcon/usernamealreadyis"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/organizations/GistIcon/usernamealreadyis.private.atom?token=APXo54SktYVhdEtVAHJi8hm7sDHgGuKHks60fuzBwA=="/>
+  <title>Private Feed for the GistIcon Organization</title>
+  <updated>2015-12-02T17:16:20+07:00</updated>
+</feed>
