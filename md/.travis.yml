@@ -1,0 +1,25 @@
+<--| Start Param:code |-->
+{
+    "access_token": "xoxp-XXXXXXXX-XXXXXXXX-XXXXX",
+    "scope": "incoming-webhook,commands,bot",
+    "team_name": "Team Installing Your Hook",
+    "team_id": "XXXXXXXXXX",
+    "incoming_webhook": {
+        "url": "https://hooks.slack.com/TXXXXX/BXXXXX/XXXXXXXXXX",
+        "channel": "#channel-it-will-post-to",
+        "configuration_url": "https://teamname.slack.com/services/BXXXXX"
+    },
+    "bot":{
+        "bot_user_id":"UTTTTTTTTTTR",
+        "bot_access_token":"xoxb-XXXXXXXXXXXX-TTTTTTTTTTTTTT"
+    }
+}
+<--| End Param:code |-->
+language: ruby
+rvm:
+ - "1.8.7"
+ - "1.9.2"
+ - "1.9.3"
+ - rbx
+# uncomment this line if your project needs to run something other than `rake`:
+# script: bundle exec rspec spec
