@@ -1,0 +1,3 @@
+echo "$SSH_AUTH_SOCK"
+# Print out the SSH_AUTH_SOCK variable
+/tmp/launch-kNSlgU/Listeners
