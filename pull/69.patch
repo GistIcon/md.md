@@ -1,0 +1,7 @@
+git://github.com/GistIcon/md.md.git
+git fetch origin
+git checkout -b usernamealreadyis-patch-20 origin/usernamealreadyis-patch-20
+git merge master
+git checkout master
+git merge --no-ff usernamealreadyis-patch-20
+git push origin master
