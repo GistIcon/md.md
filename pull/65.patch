@@ -1,0 +1,9 @@
+git://github.com/GistIcon/md.md.git
+
+git fetch origin
+git checkout -b kupret.inc-5 origin/kupret.inc-5
+git merge master
+
+git checkout master
+git merge --no-ff kupret.inc-5
+git push origin master
