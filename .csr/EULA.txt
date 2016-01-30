@@ -1,0 +1,88 @@
+SOFTWARE LICENSE AGREEMENT
+
+AS USED IN THIS AGREEMENT, â€œCOMPANYâ€ MEANS, AS APPLICABLE, SYMANTEC, GEOTRUST, THAWTE OR RAPIDSSL.  SYMANTEC MEANS AS FOLLOWS: (A) SYMANTEC CORPORATION, IF YOU ARE LOCATED IN THE AMERICAS, OR THAILAND; (B) SYMANTEC LTD., IF YOU ARE LOCATED IN EUROPE, MIDDLE EAST, OR AFRICA (C) SYMANTEC ASIA PACIFIC PTE LTD, IF YOU ARE LOCATED IN ASIA (EXCLUDING THAILAND AND JAPAN) AND (D) VERISIGN JAPAN KK IF YOU ARE LOCATED IN JAPAN. SYMANTEC MAY MEAN VERISIGN AUSTRALIA PTY LTD. IF YOU ARE LOCATED IN AUSTRALIA.  â€œGEOTRUSTâ€ MEANS THE SPECIFIC GEOTRUST ENTITY SPECIFIED ON THE HOMEPAGE OF THE WEBSITE ON WHICH YOU APPLIED FOR YOUR CERTIFICATE.  â€œTHAWTEâ€ MEANS THAWTE, INC. UNLESS YOU (ON BEHALF OF YOUR ORGANIZATION) ARE LOCATED IN THE REPUBLIC OF SOUTH AFRICA, THE REPULIC OF NAMIBIA, THE KINGDOM OF LESOTHO, OR THE KINGDOM OF SWAZILAND, IN WHICH CASE â€œTHAWTEâ€ SHALL MEAN SYMANTEC, LTD.  PLEASE NOTE THAT COMPANY RESERVES THE RIGHT TO CHANGE THE COMPANY ENTITY PARTICIPATING IN THIS AGREEMENT BY NOTICE TO YOU.
+COMPANY IS WILLING TO LICENSE THE LICENSED SOFTWARE TO YOU AS THE INDIVIDUAL, THE COMPANY, OR THE LEGAL ENTITY THAT WILL BE UTILIZING THE LICENSED SOFTWARE (REFERENCED BELOW AS â€œYOUâ€ OR â€œYOURâ€) ONLY ON THE CONDITION THAT YOU ACCEPT ALL OF THE TERMS OF THIS LICENSE AGREEMENT (â€œLICENSE AGREEMENTâ€).  READ THE TERMS AND CONDITIONS OF THIS LICENSE AGREEMENT CAREFULLY BEFORE USING THE LICENSED SOFTWARE.  THIS IS A LEGAL AND ENFORCEABLE CONTRACT BETWEEN YOU AND COMPANY.  BY CLICKING THE â€œI AGREEâ€ OR â€œYESâ€ BUTTON, OR OTHERWISE INDICATING ASSENT ELECTRONICALLY, OR LOADING OR OTHERWISE USING THE LICENSED SOFTWARE, YOU AGREE TO THE TERMS AND CONDITIONS OF THIS LICENSE AGREEMENT.  IF YOU DO NOT AGREE TO THESE TERMS AND CONDITIONS, CLICK THE â€œI DO NOT AGREEâ€ OR â€œNOâ€ BUTTON OR OTHERWISE INDICATE REFUSAL AND MAKE NO FURTHER USE OF THE LICENSED SOFTWARE. 
+1.	License Rights.  Subject to Your compliance with the terms and conditions of
+this License Agreement, Company grants to You a non-exclusive, non-transferable
+license to use a reasonable number of copies of the  Licensed Software solely
+in support of Your use of other Company services which You have purchased.
+â€œLicensed Softwareâ€ means the software program, in object code form,
+accompanying this License Agreement, including any associated program
+documentation included in, or provided for use with, such software. 2.	License
+Restrictions.  You may not, without Companyâ€™s prior written consent, conduct,
+cause or permit the: (i) use, copying, modification, rental, lease, sublease,
+sublicense, or transfer of the Licensed Software except as expressly provided
+in this License Agreement; (ii) creation of any derivative works based on the
+Licensed Software, except as expressly provided in this License Agreement; (iii)
+reverse engineering, disassembly, or decompiling of the Licensed Software (
+except that You may decompile the Licensed Software for the purposes of
+interoperability only to the extent permitted by and subject to strict
+compliance under applicable law); (iv) use of the Licensed Software in
+connection with service bureau, facility management, timeshare, service
+provider or like activity whereby You operate or use the Licensed Software for
+the benefit of a third party; or (v) use of the Licensed Software by any party
+other than You, except as expressly provided in this License Agreement. 3.
+Ownership/Title.  The Licensed Software is the proprietary property of Company
+or its licensors and is protected by copyright and patent laws.  Company and
+its licensors retain any and all rights, title and interest in and to the
+Licensed Software, including in all copies, improvements, enhancements,
+modifications and derivative works of the Licensed Software.  Your rights to
+use the Licensed Software shall be limited to those expressly granted in this
+License Agreement.  All rights not expressly granted to You are retained by
+Company and/or its licensors. 4.	Third Party Programs.  This Licensed Software
+may contain third party software programs (â€œThird Party Programsâ€) that are
+available under open source or free software licenses.  This License Agreement
+does not alter any rights or obligations You may have under those open source
+or free software licenses.  Notwithstanding anything to the contrary contained
+in such licenses, the disclaimer of warranties and the limitation of liability
+provisions in this License Agreement shall apply to such Third Party Programs.
+5.	Warranty and Limitation of Liability. 5.1.	Warranty Disclaimer.  THE
+LICENSED SOFTWARE IS PROVIDED â€œAS IS,â€ EXCLUSIVE OF ANY WARRANTY, INCLUDING,
+WITHOUT LIMITATION, ANY IMPLIED WARRANTY OF MERCHANTABILITY, SATISFACTORY
+QUALITY, FITNESS FOR A PARTICULAR PURPOSE, NONINFRINGEMENT, OR ANY OTHER
+WARRANTY, WHETHER EXPRESSED OR IMPLIED. 5.2.	Limitation of Liability.  TO THE
+MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW AND REGARDLESS OF WHETHER ANY REMEDY
+SET FORTH HEREIN FAILS OF ITS ESSENTIAL PURPOSE, IN NO EVENT WILL COMPANY BE
+LIABLE TO YOU FOR ANY DIRECT, SPECIAL, CONSEQUENTIAL, INDIRECT OR SIMILAR
+DAMAGES, INCLUDING ANY LOST PROFITS OR LOST DATA, ARISING OUT OF THE USE OR
+INABILITY TO USE THE LICENSED SOFTWARE, EVEN IF COMPANY HAS BEEN ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGES. SOME STATES AND COUNTRIES, INCLUDING MEMBER
+COUNTRIES OF THE EUROPEAN ECONOMIC AREA, DO NOT ALLOW THE LIMITATION OR
+EXCLUSION OF LIABILITY FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES SO THE ABOVE
+LIMITATION OR EXCLUSION MAY NOT APPLY TO YOU. 6.	No Support or Maintenance.
+Company does not offer support or maintenance for the Licensed Software.   7.
+Export Regulation.  You acknowledge that the Licensed Software and related
+technical data and services (collectively "Controlled Technology") are subject
+to the import and export laws of the United States, specifically the U.S.
+Export Administration Regulations (EAR), and the laws of any country where
+Controlled Technology is imported or re-exported.  You agree to comply with all
+relevant laws and will not to export any Controlled Technology in contravention
+to U.S. law nor to any prohibited country, entity, or person for which an
+export license or other governmental approval is required. 8.	Term and
+Termination.  This License Agreement will continue as long as You are in
+compliance with its terms.  In the event You breach this License Agreement, it
+will automatically terminate.  Upon termination, You must immediately stop
+using and destroy all copies of the Licensed Software within Your possession or
+control.  The Ownership/Title, Warranty and Limitation of Liability and General
+sections of this License Agreement will survive termination of the Agreement. 9.
+General.  You may not assign the rights granted hereunder or this License
+Agreement, in whole or in part and whether by operation of contract, law or
+otherwise, without Companyâ€™s prior express written consent.  Company may audit
+Your use of the Licensed Software.  If You are located in North America or
+Latin America, this License Agreement will be governed by the laws of the State
+of California, United States of America.  If You are located in China, this
+License Agreement will be governed by the laws of the Peoples Republic of China.
+Otherwise, this License Agreement will be governed by the laws of England.
+Such governing laws are exclusive of any provisions of the United Nations
+Convention on Contracts for Sale of Goods, including any amendments thereto,
+and without regard to principles of conflicts of law.  If any provision of this
+License Agreement is found partly or wholly illegal or unenforceable, such
+provision shall be enforced to the maximum extent permissible, and remaining
+provisions of this License Agreement shall remain in full force and effect.  A
+waiver of any breach or default under this License Agreement shall not
+constitute a waiver of any other subsequent breach or default.  This License
+Agreement is the complete and exclusive agreement between You and Company
+relating to the Licensed Software and supersedes any previous or
+contemporaneous oral or written communications, proposals, and representations
+with respect to its subject matter.
+
