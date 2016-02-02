@@ -1,0 +1,4 @@
+# File lib/rdoc/alias.rb, line 49
+def <=>(other)
+  [@singleton ? 0 : 1, new_name] <=> [other.singleton ? 0 : 1, other.new_name]
+end
