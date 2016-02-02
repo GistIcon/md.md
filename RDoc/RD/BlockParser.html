@@ -1,0 +1,415 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//** new()
+//** Creates a new RDoc::RD::BlockParser. Use parse to parse an rd-format document.
+# File lib/rdoc/rd/block_parser.rb, line 52
+def initialize
+  @inline_parser = RDoc::RD::InlineParser.new self
+  @include_path = []
+
+  # for testing
+  @footnotes = []
+  @labels    = {}
+end
+
+//** parse(src)
+//** Parses src and returns an RDoc::Markup::Document.
+# File lib/rdoc/rd/block_parser.rb, line 64
+def parse src
+  @src = src
+  @src.push false
+
+  @footnotes = []
+  @labels    = {}
+
+  # @i: index(line no.) of src
+  @i = 0
+
+  # stack for current indentation
+  @indent_stack = []
+
+  # how indented.
+  @current_indent = @indent_stack.join("")
+
+  # RDoc::RD::BlockParser for tmp src
+  @subparser = nil
+
+  # which part is in now
+  @in_part = nil
+  @part_content = []
+
+  @in_verbatim = false
+
+  @yydebug = true
+
+  document = do_parse
+
+  unless @footnotes.empty? then
+    blankline = document.parts.pop
+
+    document.parts << RDoc::Markup::Rule.new(1)
+    document.parts.concat @footnotes
+
+    document.parts.push blankline
+  end
+
+  document
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//** on_error(et, ev, _values)
+//** Raises a ParseError when invalid formatting is found
+# File lib/rdoc/rd/block_parser.rb, line 318
+def on_error(et, ev, _values)
+  prv, cur, nxt = format_line_num(@i, @i+1, @i+2)
+
+  raise ParseError, <<Msg
+
+RD syntax error: line #{@i+1}:
+  #{prv}  |#{@src[@i-1].chomp}
+  #{cur}=>|#{@src[@i].chomp}
+  #{nxt}  |#{@src[@i+1].chomp}
+
+Msg
+end
+
+//** line_index()
+//** Current line number
+# File lib/rdoc/rd/block_parser.rb, line 334
+def line_index
+  @i
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//** content(values)
+//** Retrieves the content of values as a single String
+# File lib/rdoc/rd/block_parser.rb, line 379
+def content values
+ values.map { |value| value.content }.join
+end
+
+//** paragraph(value)
+//** Creates a paragraph for value
+# File lib/rdoc/rd/block_parser.rb, line 386
+def paragraph value
+  content = cut_off(value).join(' ').rstrip
+  contents = @inline_parser.parse content
+
+  RDoc::Markup::Paragraph.new(*contents)
+end
+
+//** add_footnote(content)
+//** Adds footnote content to the document
+# File lib/rdoc/rd/block_parser.rb, line 396
+def add_footnote content
+  index = @footnotes.length / 2 + 1
+
+  footmark_link = "{^#{index}}[rdoc-label:footmark-#{index}:foottext-#{index}]"
+
+  @footnotes << RDoc::Markup::Paragraph.new(footmark_link, ' ', *content)
+  @footnotes << RDoc::Markup::BlankLine.new
+
+  index
+end
+
+//** add_label(label)
+//** Adds label label to the document
+# File lib/rdoc/rd/block_parser.rb, line 410
+def add_label label
+  @labels[label] = true
+
+  label
+end
