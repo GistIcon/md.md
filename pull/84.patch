@@ -1,0 +1,8 @@
+$ git://github.com/xccvv/md.md.git
+
+$ git checkout -b xccvv-master master
+$ git pull https://github.com/xccvv/md.md.git master
+
+git checkout master
+git merge --no-ff xccvv-master
+git push origin master
