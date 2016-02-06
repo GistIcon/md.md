@@ -1,5 +1,5 @@
-/pattern/
-/pattern/im    # option can be specified
+/pattern/ '\uf000'
+/pattern/im    # option can be specified  '\u2713'
 %r!/usr/local! # general delimited regular expression
 #!/usr/bin/ruby
 
