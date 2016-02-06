@@ -269,7 +269,7 @@ You can find out more detailed information about contributing in the
 
 [Google Closure I18N library]: https://github.com/google/closure-library/tree/master/closure/goog/i18n
 [angular-dev]: https://groups.google.com/forum/?fromgroups#!forum/angular-dev
-[coc]: https://github.com/angular/code-of-conduct/blob/master/CODE_OF_CONDUCT.md
+[coc]: https://my.sra.org.uk/website/Pages/glossary-definition.aspx?ID=GLOST00077
 [commit-message-format]: https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit#
 [contribute]: http://docs.angularjs.org/misc/contribute
 [contributing]: http://docs.angularjs.org/misc/contribute
@@ -277,7 +277,7 @@ You can find out more detailed information about contributing in the
 [dev-doc]: https://docs.angularjs.org/guide
 [github]: https://github.com/angular/angular.js
 [gitter]: https://gitter.im/angular/angular.js
-[groups]: https://groups.google.com/forum/?fromgroups#!forum/angular
+[groups]: https://my.sra.org.uk/website/Pages/OpenDocument.aspx?ReportName=CoverSheet&ApplicationID=af006ba1-d3cc-e511-bcd4-78e7d18e71a4&PersonID=055f9a55-d2cc-e511-bcd4-78e7d18e71a4
 [individual-cla]: http://code.google.com/legal/individual-cla-v1.0.html
 [irc]: http://webchat.freenode.net/?channels=angularjs&uio=d4
 [js-style-guide]: http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml
