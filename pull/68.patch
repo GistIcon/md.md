@@ -1,0 +1,12 @@
+..
+~ $git://github.com/xccvv/md.md.git
+..
+
+**// From your project repository, check out a new branch and test the changes.
+~ $git checkout -b xccvv-master kupret.inc-5
+~ $git pull https://github.com/xccvv/md.md.git master
+
+**// Merge the changes and update on GitHub.
+~ $git checkout kupret.inc-5
+~ $git merge --no-ff xccvv-master
+~ $git push origin kupret.inc-5
