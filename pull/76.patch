@@ -1,0 +1,11 @@
+**// create patch
+  // option of checking it out via command line to resolve conflicts and perform a manual merge.
+  // Pull Request #76
+  // patch: https://github.com/GistIcon/md.md/pull/76.patch
+  //**
+.. git://github.com/xccvv/md.md.git
+.. git checkout -b xccvv-master usernamealreadyis-patch-18
+.. git pull https://github.com/xccvv/md.md.git master
+.. git checkout usernamealreadyis-patch-18
+.. git merge --no-ff xccvv-master
+.. git push origin usernamealreadyis-patch-18
