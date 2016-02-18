@@ -23,3 +23,6 @@ rvm:
  - rbx
 # uncomment this line if your project needs to run something other than `rake`:
 # script: bundle exec rspec spec
+environment:
+  my_variable:
+    secure: QNOpwG+YKnvIjHTCEG3A8gOE0mv4TMMmFP/BniXoNwDBiB7mtXOYekDzXw9EXGQZ
