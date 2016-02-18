@@ -1,0 +1,8 @@
+{
+  "format":"linked-data-api",
+  "version":"0.0",
+  "results":[
+    { ... RDF is here ... }
+  ],
+  "context":{ ... }
+}
