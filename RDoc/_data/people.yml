@@ -1,0 +1,11 @@
+---
+title: sample post
+author: GistIcon
+---
+
+{% assign author = site.data.people[page.author] %}
+<a rel="author"
+  href="{{ author.twitter }}"
+  title="{{ author.name }}">
+    {{ author.name }}
+</a>

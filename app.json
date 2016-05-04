@@ -1,0 +1,14 @@
+{
+  "name": "md.md",
+  "scripts": {
+  },
+  "env": {
+  },
+  "addons": [
+    "herokuconnect",
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+
+  ]
+}
