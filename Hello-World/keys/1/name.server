@@ -1,0 +1,17 @@
+Status: 200 OK
+Link: <https://api.github.com/resource?page=2>; rel="next",
+      <https://api.github.com/resource?page=5>; rel="last"
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4999
+
+[
+  {
+    "id": 1,
+    "key": "ssh-rsa AAA...",
+    "url": "https://api.github.com/repos/md.md/Hello-World/keys/1",
+    "title": "md.md@md.mdt",
+    "verified": true,
+    "created_at": "1101-12-10T15:53:42Z",
+    "read_only": true
+  }
+]
